@@ -34,9 +34,9 @@
             <label>Time (years)</label>
             <input type="number" id="si-t" placeholder="Enter time">
 
-            <button >Calculate Simple Interest</button>
+            <button onclick="calcSI()">Calculate Simple Interest</button>
 
-        
+            <p class="result" id="si-result"></p>
         </div>
 
         <!-- Compound Interest -->
@@ -52,9 +52,9 @@
             <label>Time (years)</label>
             <input type="number" id="ci-t" placeholder="Enter time">
 
-            <button>Calculate Compound Interest</button>
+            <button onclick="calcCI()">Calculate Compound Interest</button>
 
-            
+            <p class="result" id="ci-result"></p>
         </div>
 
     </section>
@@ -62,9 +62,8 @@
     <footer>
         <p>© 2025 InvestIQ | Simple Finance Calculator</p>
     </footer>
+
     <script src="calculator.js"></script>
-
-
 
 </body>
 </html>
